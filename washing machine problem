@@ -1,0 +1,9 @@
+w= int(input())
+if w>0 and w<2001:
+    print("time takens 25 min")
+elif w>2001 and w<4001:
+    print("time takens 35 min")
+elif w>4001 and w<7001:
+    print("time takens 45 min")
+else:
+    print("invalid output")
