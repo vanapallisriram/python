@@ -1,0 +1,12 @@
+#protected
+class encap:
+    _a=100
+    def encapfunction(self):
+        _b=20
+        print("encap function-accessing protected")
+        print(self._a+10)
+        
+obj=encap()
+print(obj._a)
+obj.encapfunction()
+print(obj._a)
