@@ -1,0 +1,10 @@
+import queue
+l=queue.Queue(maxsize=5)
+l.put(100)
+l.put(200)
+
+print(type(l))
+
+print(l.get())
+print(l.get())
+ 
